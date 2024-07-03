@@ -1,0 +1,231 @@
+/* Navbar */
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        margin-left: 0 !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 0 !important;
+    }
+
+    .nav-links {
+        margin-left: 0 !important;
+    }
+
+    .ms-auto {
+        justify-content: center !important;
+    }
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: #005FA4;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Section1 */
+.sec1 {
+    background-color: #062b46;
+    color: white;
+}
+
+.sec1 .sec-body {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.sec1 h1 {
+    text-align: center;
+    max-width: 700px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.sec1 .btn-learn {
+    background-color: #3b84b9;
+    border-color: #3b84b9;
+    color: white;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: none;
+}
+
+.sec1 .btn-join {
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: none;
+}
+
+.sec1 .btn-learn:hover {
+    background-color: #E91829;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sec1 .btn-join:hover {
+    background-color: #f3f0f0;
+    color: black;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sec1 p {
+    max-width: 800px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container .btn {
+    min-width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Section 2 */
+.sec2 {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
+
+}
+
+.sec2 .sec-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 h1 {
+    color: #E91829;
+}
+
+.card {
+    border-radius: 20px;
+    margin-top: 20px;
+    min-height: 220px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px) scale(1.02);
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Section 3 */
+.sec3 {
+    background-color: rgb(118, 11, 20);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    min-height: 40vh;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.sec3 .btn {
+    margin-top: 20px;
+    background-color: #cc1818;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.sec3 .btn:hover {
+    background-color: #005FA4;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.sub-title p {
+    font-size: 1rem;
+    margin-bottom: 0;
+    max-width: 600px;
+    margin: auto;
+}
+
+.btn-responsive {
+    width: auto;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+
+@media (max-width: 575.98px) {
+    .btn-responsive {
+        width: 100%;
+        font-size: 1.25rem;
+        padding: 1rem 1.5rem;
+        margin-top: 1rem;
+    }
+}
+
+/* Footer */
+footer {
+    min-height: 50px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+ul.footer-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.footer-links li {
+    margin-left: 20px;
+}
+
+ul.footer-links li:first-child {
+    margin-left: 0;
+}
+
+ul.footer-links li a {
+    text-decoration: none;
+    color: #000;
+}
